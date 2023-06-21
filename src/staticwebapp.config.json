@@ -1,4 +1,14 @@
 {
+  "routes": [
+    {
+      "route": "/login",
+      "rewrite": "/.auth/login/aad"
+    },
+    {
+      "route": "/.auth/login/aad/callback",
+      "redirect": "/"
+    }
+  ],
   "auth": {
     "identityProviders": {
       "azureActiveDirectory": {
@@ -10,15 +20,5 @@
         }
       }
     }
-  },
-  "routes": [
-    {
-      "route": "/login",
-      "rewrite": "/.auth/login/aad"
-    },
-    {
-      "route": "/.auth/login/aad/callback",
-      "redirect": "/"
-    }
-  ]
+  }
 }
