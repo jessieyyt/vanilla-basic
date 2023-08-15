@@ -20,5 +20,13 @@
         }
       }
     }
+    "login": {
+      "tokenStore": {
+        "enabled":true,
+        "blobStorage": {
+          "sasUrlSettingName":"myBlobStorageSasUrlSettingName"
+        }
+      }
+    }
   }
 }
