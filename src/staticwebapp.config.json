@@ -24,7 +24,7 @@
       "tokenStore": {
         "enabled":true,
         "blobStorage": {
-          "sasUrlSettingName":"myBlobStorageSasUrlSettingName"
+          "sasUrlSettingName":"BLOB_SAS_URI_SETTING_NAME"
         }
       }
     }
