@@ -20,13 +20,5 @@
         }
       }
     }
-    "login": {
-      "tokenStore": {
-        "enabled":true,
-        "blobStorage": {
-          "sasUrlSettingName":"BLOB_SAS_URI_SETTING_NAME"
-        }
-      }
-    }
   }
 }
