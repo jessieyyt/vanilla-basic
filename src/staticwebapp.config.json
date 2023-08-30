@@ -19,7 +19,7 @@
           "clientSecretSettingName": "AZURE_CLIENT_SECRET"
         }
       }
-    }
+    },
     "login": {
       "tokenStore": {
         "enabled": "true"
