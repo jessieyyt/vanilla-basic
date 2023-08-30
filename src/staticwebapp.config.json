@@ -20,5 +20,10 @@
         }
       }
     }
+    "login": {
+      "tokenStore": {
+        "enabled": "true"
+      }
+    }
   }
 }
