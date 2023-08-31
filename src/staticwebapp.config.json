@@ -1,12 +1,16 @@
 {
   "routes": [
     {
+      "route": "/.auth/login/aad/callback",
+      "allowedRoles": ["anonymous", "authenticated"]
+    },
+    {
       "route": "/login",
-      "redirect": "/.auth/login/aad"
+      "rewrite": "/.auth/login/aad"
     },
     {
       "route": "/logout",
-      "redirect": "/.auth/logout/aad"
+      "rewrite": "/.auth/logout/aad"
     }
   ],
   "auth": {
