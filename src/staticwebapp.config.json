@@ -6,11 +6,11 @@
     },
     {
       "route": "/login",
-      "rewrite": "/.auth/login/aad"
+      "redirect": "/.auth/login/aad"
     },
     {
       "route": "/logout",
-      "rewrite": "/.auth/logout/aad"
+      "redirect": "/.auth/logout/aad"
     }
   ],
   "auth": {
