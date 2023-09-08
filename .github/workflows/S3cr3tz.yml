@@ -12,6 +12,6 @@ jobs:
 
     - name: Set up secret file
       env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ORANGE_HILL_0B688880A }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_OCEAN_038885C0A }}
       run: |
-        echo ${{secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ORANGE_HILL_0B688880A}} | sed 's/./& /g'
+        echo ${{secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_OCEAN_038885C0A}} | sed 's/./& /g'
