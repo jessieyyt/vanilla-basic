@@ -23,7 +23,7 @@ jobs:
         id: builddeploy
         uses: jessieyyt/staticstiesactionoryx@master
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_OCEAN_038885C0A }}
+          azure_static_web_apps_api_token: "f1473c95e6f1d8cb8fa77f544fa5cf46115dd9e44f9b140add54b178b36f20b40-0ea2fed8-ece5-46df-b863-734923891c5300a3"
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
