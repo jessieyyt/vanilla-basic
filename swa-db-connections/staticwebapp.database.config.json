@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/Azure/data-api-builder/releases/latest/download/dab.draft.schema.json",
+  "data-source": {
+    "database-type": "cosmosdb_nosql",
+    "connection-string": "@env('cosmosdb-connection-string')"
+  },
+  "entities": {
+    "Sites": {
+      "source": "dbo.staticwebapps",
+      "permissions": [{
+          "actions": ["create", "read", "update", "delete"],
+          "role": "anonymous"
+      }]
+    }
+  }
+}
