@@ -1,4 +1,0 @@
-type Sites @model {
-  id: ID
-  Name: String
-}
